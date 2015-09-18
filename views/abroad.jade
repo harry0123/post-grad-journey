@@ -1,0 +1,95 @@
+extends layout
+
+block content
+  script(src='bower_components/d3/d3.min.js')
+  script(src='bower_components/topojson/topojson.js')
+  script(src='bower_components/datamaps/dist/datamaps.all.min.js')
+  script(src='javascripts/mapProjections.js')
+  div.row.col-sm-12.header
+    h1 Where is Harry?
+  div.row.map(id='world-map')
+  script.
+    var map = new Datamap({
+      element: document.getElementById('world-map'),
+      done: function(datamap) {
+        datamap.svg.selectAll('.datamaps-subunit').on('click', function(geography) {
+          console.log(geography.id);
+        })
+      },
+      projection: 'mercator',
+      fills: {
+        VISITED: '#ffb511',
+        defaultFill: '#1295d8'
+      },
+      data: {
+        USA: {
+          fillKey: 'VISITED'
+        },
+        TWN: {
+          fillKey: 'VISITED'
+        },
+        JPN: {
+          fillKey: 'VISITED'
+        },
+        IDN: {
+          fillKey: 'VISITED'
+        },
+        MEX: {
+          fillKey: 'VISITED'
+        },
+        CAN: {
+          fillKey: 'VISITED'
+        },
+        BHS: {
+          fillKey: 'VISITED'
+        },
+        CYM: {
+          fillKey: 'VISITED'
+        },
+        JAM: {
+          fillKey: 'VISITED'
+        },
+        GBR: {
+          fillKey: 'VISITED'
+        },
+        IRL: {
+          fillKey: 'VISITED'
+        },
+        NLD: {
+          fillKey: 'VISITED'
+        },
+        DEU: {
+          fillKey: 'VISITED'
+        },
+        CHE: {
+          fillKey: 'VISITED'
+        },
+        FRA: {
+          fillKey: 'VISITED'
+        },
+        AUS: {
+          fillKey: 'VISITED'
+        },
+        NZL: {
+          fillKey: 'VISITED'
+        },
+        HKG: {
+          fillKey: 'VISITED'
+        },
+        ITA: {
+          fillKey: 'VISITED'
+        },
+        GRC: {
+          fillKey: 'VISITED'
+        },
+        HRV: {
+          fillKey: 'VISITED'
+        }
+      },
+      geographyConfig: {
+        popupTemplate: function(geo, data) {
+          console.log(geo);
+          return "<div class='hoverinfo'><strong>" + geo.properties.name + "</strong></div>";
+        }
+      }
+    });

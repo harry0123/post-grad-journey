@@ -1,0 +1,251 @@
+{
+  "AL": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "AK": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "AZ": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "AR": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "CA": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "CO": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "CT": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "DE": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "FL": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "GA": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "HI": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "ID": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "IL": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "IN": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "IA": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "KS": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "KY": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "LA": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "ME": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "MD": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "MA": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "MI": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "MN": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "MS": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "MO": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "MT": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "NE": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "NV": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "NH": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "NJ": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "NM": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "NY": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "NC": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "ND": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "OH": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "OK": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "OR": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "PA": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "RI": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "SC": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "SD": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "TN": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "TX": {
+    "fillKey": "VISITED",
+    "current": true
+  }
+}, {
+  "UT": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "VT": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "VA": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "WA": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "WV": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}, {
+  "WI": {
+    "fillKey": "defaultFill",
+    "current": false
+  }
+}, {
+  "WY": {
+    "fillKey": "VISITED",
+    "current": false
+  }
+}

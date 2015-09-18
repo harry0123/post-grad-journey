@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  div.row.col-sm-12.header
+    h1 Where is Harry?
+  case state
+    when 'CA'
+      div.row.col-sm-12.header
+        h3 California
+        li
+          p June-July 2014: <a href='https://harryt.exposure.co/rooftop-shenanigans'>Rooftop Shenanigans</a>
+    default
+      div.row.col-sm-12.header
+        p This state has no entries
+  div.row.col-sm-12.header
+    p
+      a(href='/') Back

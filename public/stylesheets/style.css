@@ -1,0 +1,33 @@
+body {
+  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#us-map {
+  display: flex;
+  margin: auto;
+  /*position: relative;*/
+  margin-right: 600%;
+  width: 800px;
+  height: 450px;
+  clear: both;
+}
+
+#current {
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+}
+
+#world-map {
+  display: block;
+  margin: auto;
+  position: relative;
+  width: 900px;
+  height: 600px;
+  padding-top: 100px;
+}
